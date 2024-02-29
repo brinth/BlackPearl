@@ -1,0 +1,36 @@
+" Generic
+set number
+set relativenumber
+set hlsearch
+
+" File backup
+set noswapfile
+set nobackup
+
+" Syntax
+syntax on
+filetype plugin indent on
+
+" Tabs & Spaces
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
+set smarttab
+
+" Autocompletion on menu
+set wildmode=list:full
+set wildignorecase
+
+" Plugin configuration
+let g:airline#extensions#tabline#enabled=1
+let g:airline_theme='dark'
+
+
+" Appearance
+:colorscheme industry
+
+" KeyMappings
+nnoremap H gT
+nnoremap L gt
+map <F2> :set shiftwidth=2<CR> :set tabstop=2<CR>
+map <F4> :set shiftwidth=4<CR> :set tabstop=4<CR>
