@@ -1,0 +1,15 @@
+mod1: [ "ctrl", "option" ]
+mod2: [ "ctrl", "option", "shift" ]
+
+layouts:
+  - tall
+  - wide
+  - fullscreen
+
+screenPadding: 10
+windowMarginSize: 8
+
+#floating:
+#  - "System Preferences"
+#  - "Ghostty"
+

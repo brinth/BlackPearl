@@ -1,0 +1,22 @@
+[user]
+	name = Brinth Khanna (Kai)
+	email = brinthkhanna@yahoo.com
+[alias]
+	st = status
+	br = branch
+	co = checkout
+	ln = log --oneline --decorate --graph --sparse --pretty=oneline -n 100
+	lna = log --oneline --decorate --graph --sparse --pretty=oneline --all 
+	lgn = log --oneline --decorate --graph --pretty -n 100
+	lga = log --oneline --decorate --graph --pretty 
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	pager = diff-so-fancy | less --tabs=4 -RFX
+[merge]
+	tool = vimdiff
+[mergetool]
+	prompt = true

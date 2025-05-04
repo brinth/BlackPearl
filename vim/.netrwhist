@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/Users/brinthkhanna/Projects/Brinth/nova-prsm/nova_prsm/tests/unit/conf'
+let g:netrw_dirhist_4='/Users/brinthkhanna/Projects/Public/python-zhmcclient/docs'
+let g:netrw_dirhist_3='/Users/brinthkhanna/Projects/Public/python-zhmcclient'
+let g:netrw_dirhist_2='/Users/brinthkhanna/Projects/Public/python-zhmcclient/zhmcclient'
+let g:netrw_dirhist_1='/Users/brinthkhanna/Projects/Public/python-zhmcclient'
+let g:netrw_dirhist_0='/Users/brinthkhanna/Projects/Public'
+let g:netrw_dirhist_9='/Users/brinthkhanna/Projects'
+let g:netrw_dirhist_8='/Users/brinthkhanna/Projects/Brinth'
+let g:netrw_dirhist_7='/Users/brinthkhanna/Projects/Brinth/nova-prsm'
+let g:netrw_dirhist_6='/Users/brinthkhanna/Projects/Brinth/nova-prsm/nova_prsm'
